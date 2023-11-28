@@ -5,6 +5,7 @@ This documentation is here to guide the creation of the club website.
 # **Members**
 - Tyler Sackel <`@BiziLife`>: Leader
 - Cameron <`@wzid`>
+- Jeffrey Vandever <`@jeffreyman101`>
 - Gideon Walker <`@gm-walker`>
 - Michael Stickley<`@mstickley22`>: Club President
 - Jack Harris <'@4ubiks'>
