@@ -8,7 +8,7 @@ This documentation is here to guide the creation of the club website.
 - Jeffrey Vandever <`@jeffreyman101`>
 - Gideon Walker <`@gm-walker`>
 - Michael Stickley<`@mstickley22`>: Club President
-- Jack Harris <'@4ubiks'>
+- Jack Harris <`@4ubiks`>
 
 <br>
 
