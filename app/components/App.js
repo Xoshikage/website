@@ -1,6 +1,6 @@
 import logo from './logo.svg';
 import 'app/globals.css';
-import Navbar from "@/app/components/navbar";
+import Navbar from 'app/components/navbar.js';
 
 export default function App() {
   return (
