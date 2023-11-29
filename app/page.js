@@ -1,7 +1,7 @@
 import Image from 'next/image'
-import Hero from "@/components/hero";
-import Navbar from "@/components/navbar";
-import Footer from "@/components/footer";
+import Hero from "@/app/components/hero";
+import Navbar from "@/app/components/navbar";
+import Footer from "@/app/components/footer";
 // import bgImage from '/gradient.png';
 
 export default function Home() {
