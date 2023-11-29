@@ -1,5 +1,5 @@
 import logo from './logo.svg';
-import './App.css';
+import 'app/globals.css';
 import Navbar from "@/app/components/navbar";
 
 export default function App() {
