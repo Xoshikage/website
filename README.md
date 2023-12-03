@@ -64,7 +64,14 @@ For optimal file organization, we will organize the files into folders based on 
 
 ### **NextJS Website/App**
 In this project, we are organizing our files like this:
-{...}
+- `src`
+  - Equivalent of `root`; Base of operations
+- `app`
+  - Contains all of the pages and other related `.js` files.
+- `components`
+  - Contains parts that make up the pages stored in app (ex. navbars, heroes, cards, etc.)
+- `public`
+  - Contains `svg`, `img`, & video files (depending); media
 
 ## **Commit Messages**
 
