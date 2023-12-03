@@ -43,9 +43,11 @@ This documentation is here to guide the creation of the club website.
 
 ## **File Organization**
 <!-- Descirbes how the files within our repo are organized (i.e., where to find types of files) -->
+### **HTML-based website**
 For optimal file organization, we will organize the files into folders based on their file type/function. Our folders will be:
 
 - `html`
+  - Stores HTML Files
 - `styles`
   - Stores CSS files + other styling documents
 - `scripts`
@@ -59,6 +61,10 @@ For optimal file organization, we will organize the files into folders based on 
 - `docs`
   - Documentation (except `README.md`)
   - images/svgs for documentation goes here
+
+### **NextJS Website/App**
+In this project, we are organizing our files like this:
+{...}
 
 ## **Commit Messages**
 
