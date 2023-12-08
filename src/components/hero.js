@@ -1,7 +1,7 @@
 
 export default function Hero() {
     return (
-        <div className="hero h-full py-32 imag3" style={{ backgroundImage: `url("./igor-surkov-V1MmxRWWlB8-unsplash.jpg")`, backgroundPositionY: 0, backgroundPositionX: 0}}>
+        <div className="hero h-full py-32 imag3" style={{ backgroundImage: `url("./igor-surkov-V1MmxRWWlB8-unsplash.webp")`, backgroundPositionY: 0, backgroundPositionX: 0}}>
 
                 <div className={"flex flex-col text-[15rem] italic tracking-tighter items-center justify-center -ml-10 -mt-20 py-5 scroll-pr-3.5"}>
                     <div className="text-base-100 font-bold text-center z-10">
