@@ -6,17 +6,19 @@ import Image from "next/image";
 import { useEffect, useState } from "react";
 
 export default function Home() {
-  const [theme, setTheme] = useState("")
+    const [isdark, setIsdark] = useState(
+        JSON.parse(localStorage.getItem('isdark'))
+    )
 
-  useEffect(() => {
-    let value = localStorage.getItem("theme") || ""
-    setTheme(value)
-  }, [])
+    useEffect(()=>{
+        localStorage.setItem('isdark', JSON.stringify(isdark));
+    }, [isdark])
+
     return (
       <main className="flex min-h-screen w-full flex-col items-center overflow-clip">
-        <Navbar
-            value={theme}
-            onChange={() => setTheme(!theme)}
+        <Navbar 
+            v={isdark}
+            o={()=> setIsdark(!isdark)}
         />
 
           <div className="w-full">

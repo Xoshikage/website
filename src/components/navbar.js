@@ -1,5 +1,5 @@
 
-export default function Navbar({value, onChange}) {
+export default function Navbar({v, o}) {
       
     return (
         <header className="navbar bg-base-100">
@@ -29,9 +29,8 @@ export default function Navbar({value, onChange}) {
                         <input 
                             type="checkbox" 
                             className="theme-controller"
-                            checked={value}
-                            onChange={onChange}
-                            defaultValue={"dark"}
+                            checked={v}
+                            onChange={o}
                             value={"light"}
                         />
                             {/* sun icon */}
