@@ -1,8 +1,9 @@
 'use client'
 import { useEffect, useState } from "react";
+
 export default function Navbar() {
     const [tSwitch, setTSwitch] = useState(
-        typeof window == 'undefinded' ? null:
+        typeof window == 'undefined' ? null:
         JSON.parse(localStorage.getItem('tSwitch'))
     );
     useEffect(() => {
