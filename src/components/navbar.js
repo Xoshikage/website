@@ -3,7 +3,7 @@ import { useEffect, useState } from "react";
 
 export default function Navbar() {
     if(typeof localStorage == 'undefined'){
-        const [tSwitch, setTSwitch] = null;
+        const tSwitch = null;
     }
 
     const [tSwitch, setTSwitch] = useState(
