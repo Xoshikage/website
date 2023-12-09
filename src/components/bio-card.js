@@ -1,7 +1,7 @@
 
 export default function BioCard({link, desc, name, role, bio, discord_uname, github, children}) { 
     return(
-        <div className=" text-base-content bg-base-200 border-4 border-base-300 card lg:card-side shadow-xl m-5">
+        <div className=" text-base-content bg-base-200 border-base-300 card lg:card-side shadow-xl m-5">
             <figure className=" w-fill h-fill">
                 <picture>
                     <img className=""
