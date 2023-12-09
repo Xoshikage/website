@@ -1,5 +1,6 @@
 import Hero from "@/components/hero";
 import Navbar from "@/components/navbar";
+import BioCard from "@/components/bio-card";
 import Image from "next/image";
 export default function Home() {
   return (
@@ -9,69 +10,21 @@ export default function Home() {
 
               <Hero className={"min-h-screen h-full"}></Hero>
               <div className={"bg-base-100 w-full flex justify-center py-32"}>
-
+                
                   <div className={"w-11/12 max-w-[1500px] grid grid-rows-3 gap-3.5"}>
-                      <div className={"row-start-1"}>
-                          <div className="bg-base-300 w-full h-[27rem] rounded-3xl p-16 flex items-center">
-                              <div className="avatar">
-                                  <div className="w-72 rounded">
-                                      <picture><img src="https://v2.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" alt=""/></picture>
-                                  </div>
-                              </div>
-
-                              <div className={"ml-8 h-full py-8 prose lg:prose-md"}>
-                                  <h1>
-                                      Person
-                                  </h1>
-
-
-                                  <p>
-                                      This is a person who is in da club
-                                  </p>
-                                  {/*<a href={"/projects"}/>*/}
-                              </div>
-                          </div>
-                      </div>
-
-                      <div className={"row-start-2"}>
-                          <div className="bg-base-300 w-full h-[27rem] rounded-lg p-16 flex items-center flex-row-reverse justify-between">
-                              <div className="avatar">
-                                  <div className="w-72 rounded-lg">
-                                      <picture><img src="https://v2.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" alt=""/></picture>
-                                  </div>
-                              </div>
-
-                              <div className={"ml-8 h-full py-8 prose lg:prose-md"}>
-                                  <h1>
-                                      Person
-                                  </h1>
-
-                                  <p>
-                                      This is a person who is in da club
-                                  </p>
-                              </div>
-                          </div>
-                      </div>
-
-                      <div className={"row-start-3"}>
-                          <div className="bg-base-300 w-full h-[27rem] rounded-lg p-16 flex items-center">
-                              <div className="avatar">
-                                  <div className="w-72 rounded">
-                                      <picture><img src="https://v2.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" alt=""/></picture>
-                                  </div>
-                              </div>
-
-                              <div className={"ml-8 h-full py-8 prose lg:prose-md"}>
-                                  <h1>
-                                      Person
-                                  </h1>
-
-                                  <p>
-                                      This is a person who is in da club
-                                  </p>
-                              </div>
-                          </div>
-                      </div>
+                  {/* Keep in Mind: BioCard works best w/ square profile pictures! */}
+                  <BioCard 
+                        className="row-start-1"
+                        link="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" 
+                        desc="A photo of Michael Stickley" 
+                        name="Michael Stickley"
+                        role="Club President"
+                        discord_uname="@theinvisiblewaffle"
+                        github="https://github.com/mstickley22">
+                        <p>What an outstanding individual!</p>
+                        <br/>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, veritatis corporis perspiciatis amet libero tempore aut, delectus doloremque sapiente eveniet totam corrupti maxime accusantium ex autem ipsa sequi asperiores tenetur.</p>
+                    </BioCard>
                   </div>
 
               </div>
