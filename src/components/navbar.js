@@ -1,17 +1,5 @@
-'use client'
-import { useEffect, useState } from "react";
 
-export default function Navbar() {
-    if(typeof localStorage == 'undefined'){
-        const tSwitch = null;
-    }
-
-    const [tSwitch, setTSwitch] = useState(
-        JSON.parse(localStorage.getItem('tSwitch'))
-    );
-    useEffect(() => {
-        localStorage.setItem('tSwitch', JSON.stringify(tSwitch))
-    }, [tSwitch]);
+export default function Navbar({value, onChange}) {
       
     return (
         <header className="navbar bg-base-100">
@@ -40,9 +28,9 @@ export default function Navbar() {
                         {/* this hidden checkbox controls the state */}
                         <input 
                             type="checkbox" 
-                            className="theme-controller" 
-                            checked={tSwitch} 
-                            onChange={()=>setTSwitch(!tSwitch)}
+                            className="theme-controller"
+                            checked={value}
+                            onChange={onChange}
                             defaultValue={"dark"}
                             value={"light"}
                         />

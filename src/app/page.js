@@ -1,11 +1,24 @@
+'use client'
 import Hero from "@/components/hero";
 import Navbar from "@/components/navbar";
 import BioCard from "@/components/bio-card";
 import Image from "next/image";
+import { useEffect, useState } from "react";
+
 export default function Home() {
-  return (
+  const [theme, setTheme] = useState("")
+
+  useEffect(() => {
+    let value = localStorage.getItem("theme") || ""
+    setTheme(value)
+  }, [])
+    return (
       <main className="flex min-h-screen w-full flex-col items-center overflow-clip">
-        <Navbar />
+        <Navbar
+            value={theme}
+            onChange={() => setTheme(!theme)}
+        />
+
           <div className="w-full">
 
               <Hero className={"min-h-screen h-full"}></Hero>
