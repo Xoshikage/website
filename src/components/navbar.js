@@ -3,7 +3,8 @@ import { useEffect, useState } from "react";
 
 export default function Navbar() {
     const [tSwitch, setTSwitch] = useState(
-        JSON.parse(localStorage.getItem('tSwitch'))
+        typeof window == 'undefinded' ? null:
+        JSON.parse(window.localStorage.getItem('tSwitch'))
     );
     useEffect(() => {
         localStorage.setItem('tSwitch', JSON.stringify(tSwitch))
