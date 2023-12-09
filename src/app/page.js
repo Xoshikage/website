@@ -15,7 +15,7 @@ export default function Home() {
                           <div className="bg-base-300 w-full h-[27rem] rounded-3xl p-16 flex items-center">
                               <div className="avatar">
                                   <div className="w-72 rounded">
-                                      <img src="https://v2.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" alt=""/>
+                                      <picture><img src="https://v2.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" alt=""/></picture>
                                   </div>
                               </div>
 
@@ -37,7 +37,7 @@ export default function Home() {
                           <div className="bg-base-300 w-full h-[27rem] rounded-lg p-16 flex items-center flex-row-reverse justify-between">
                               <div className="avatar">
                                   <div className="w-72 rounded-lg">
-                                      <img src="https://v2.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" alt=""/>
+                                      <picture><img src="https://v2.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" alt=""/></picture>
                                   </div>
                               </div>
 
@@ -57,7 +57,7 @@ export default function Home() {
                           <div className="bg-base-300 w-full h-[27rem] rounded-lg p-16 flex items-center">
                               <div className="avatar">
                                   <div className="w-72 rounded">
-                                      <img src="https://v2.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" alt=""/>
+                                      <picture><img src="https://v2.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" alt=""/></picture>
                                   </div>
                               </div>
 
@@ -79,7 +79,7 @@ export default function Home() {
 
           <div className={"w-full h-96 bg-base-100 flex p-16 px-24 items-center"}>
               <div className="w-60 rounded">
-                  <img src="Logo.png" alt=""/>
+                  <picture><img src="Logo.png" alt=""/></picture>
               </div>
               <div className={"ml-12 h-full py-8 prose lg:prose-md"}>
                   <h1>
