@@ -1,25 +1,13 @@
-'use client'
 import Hero from "@/components/hero";
 import Navbar from "@/components/navbar";
 import BioCard from "@/components/bio-card";
 import Image from "next/image";
-import { useEffect, useState } from "react";
 
 export default function Home() {
-    const [isdark, setIsdark] = useState(
-        JSON.parse(localStorage.getItem('isdark') || false)
-    )
-
-    useEffect(()=>{
-        localStorage.setItem('isdark', JSON.stringify(isdark));
-    }, [isdark])
 
     return (
       <main className="flex min-h-screen w-full flex-col items-center overflow-clip">
-        <Navbar 
-            v={isdark}
-            o={()=> setIsdark(!isdark)}
-        />
+        <Navbar />
 
           <div className="w-full">
 
