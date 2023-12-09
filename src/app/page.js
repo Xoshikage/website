@@ -25,6 +25,30 @@ export default function Home() {
                         <br/>
                         <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, veritatis corporis perspiciatis amet libero tempore aut, delectus doloremque sapiente eveniet totam corrupti maxime accusantium ex autem ipsa sequi asperiores tenetur.</p>
                     </BioCard>
+                    <BioCard 
+                        className="row-start-2"
+                        link="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" 
+                        desc="A photo of Michael Stickley" 
+                        name="Michael Stickley"
+                        role="Club President"
+                        discord_uname="@theinvisiblewaffle"
+                        github="https://github.com/mstickley22">
+                        <p>What an outstanding individual!</p>
+                        <br/>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, veritatis corporis perspiciatis amet libero tempore aut, delectus doloremque sapiente eveniet totam corrupti maxime accusantium ex autem ipsa sequi asperiores tenetur.</p>
+                    </BioCard>
+                    <BioCard 
+                        className="row-start-3"
+                        link="https://daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" 
+                        desc="A photo of Michael Stickley" 
+                        name="Michael Stickley"
+                        role="Club President"
+                        discord_uname="@theinvisiblewaffle"
+                        github="https://github.com/mstickley22">
+                        <p>What an outstanding individual!</p>
+                        <br/>
+                        <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Fugit, veritatis corporis perspiciatis amet libero tempore aut, delectus doloremque sapiente eveniet totam corrupti maxime accusantium ex autem ipsa sequi asperiores tenetur.</p>
+                    </BioCard>
                   </div>
 
               </div>
