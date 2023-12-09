@@ -7,7 +7,7 @@ import { useEffect, useState } from "react";
 
 export default function Home() {
     const [isdark, setIsdark] = useState(
-        JSON.parse(localStorage.getItem('isdark') || "")
+        JSON.parse(localStorage.getItem('isdark') || false)
     )
 
     useEffect(()=>{

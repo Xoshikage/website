@@ -1,6 +1,7 @@
 
+
 export default function Navbar({v, o}) {
-      
+
     return (
         <header className="navbar bg-base-100">
             <div className="navbar-start">
