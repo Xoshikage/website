@@ -7,8 +7,6 @@ export default function Home() {
 
     return (
       <main className="flex min-h-screen w-full flex-col items-center overflow-clip">
-        <Navbar />
-
           <div className="w-full">
 
               <Hero className={"min-h-screen h-full"}></Hero>
