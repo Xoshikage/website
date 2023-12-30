@@ -22,7 +22,7 @@ module.exports = {
       "halloween",
       "winter",
     ],
-    darkTheme: "halloween",
+    darkTheme: "dark",
     base: true,
     prefix: "",
     styled: true,
