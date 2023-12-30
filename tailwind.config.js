@@ -15,4 +15,17 @@ module.exports = {
     },
   },
   plugins: [require("daisyui")],
+  daisyui: {
+    themes: [
+      "light", 
+      "dark",
+      "halloween",
+      "winter",
+    ],
+    darkTheme: "dark",
+    base: true,
+    prefix: "",
+    styled: true,
+    themeRoot: ":root",
+  },
 }
