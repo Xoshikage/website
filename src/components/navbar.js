@@ -12,7 +12,6 @@ export default function Navbar() {
                         <li><a href={"/projects"}>Projects</a></li>
                         <li><a href={"https://github.com/LibertyUniversitySER/website"} >SRC</a></li>
                         <li><a href={"https://discord.gg/SMcAMwxPs5"}>Discord</a></li>
-                        <li><a href={''}>Projects</a></li>
                     </ul>
                 </div>
             </div>
