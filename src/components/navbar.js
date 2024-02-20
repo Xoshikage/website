@@ -9,7 +9,7 @@ export default function Navbar() {
                     </label>
                     <ul tabIndex={0} className="menu menu-compact dropdown-content mt-3 p-2 shadow bg-base-100 rounded-box w-52">
                         <li><a href={""}>People</a></li>
-                        <li><a href={""}>Projects</a></li>
+                        <li><a href={"/projects"}>Projects</a></li>
                         <li><a href={"https://github.com/LibertyUniversitySER/website"} >SRC</a></li>
                         <li><a href={"https://discord.gg/SMcAMwxPs5"}>Discord</a></li>
                     </ul>
