@@ -178,7 +178,7 @@ export default function Home() {
                                   </h1>
 
                                   <p>
-                                      Goldfish (aka pure eye candy)
+                                      Has been to the moon
                                   </p>
 
                                   <div p-10>
