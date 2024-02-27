@@ -143,7 +143,7 @@ export default function Home() {
                           <div className="bg-base-100 w-full h-[27rem] rounded-3xl p-16 flex items-center flex-row-reverse justify-between">
                               <div className="avatar">
                                   <div className="w-72 rounded">
-                                      <img src="https://v2.daisyui.com/images/stock/photo-1534528741775-53994a69daeb.jpg" />
+                                      <img src="images/Jeff.jpg" />
                                   </div>
                               </div>
 
