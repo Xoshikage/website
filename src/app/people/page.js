@@ -11,7 +11,7 @@ export default function Home() {
 
           <div className="w-full"> 
               <Hero className={"min-h-screen h-full"}></Hero>
-              <div className={"w-full flex justify-center py-32 bg-slate-50"}>
+              <div className={"w-full flex justify-center py-32"}>
 
                   <div className={"w-11/12 max-w-[1500px] grid grid-rows-3 gap-3.5"}>
                       <div className={"row-start-1"}>
