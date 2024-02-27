@@ -8,15 +8,16 @@ export default function Projects(){
           <Navbar></Navbar>
 
           <div className="w-full"> 
-              <Hero className={"min-h-screen h-full"}></Hero>
-              <div className={"bg-gray-800 w-full flex justify-center py-32"}>
-
+              {/* <Hero className={"min-h-screen h-full"}></Hero> */}
+              <h1 className="bg-gradient-to-r from-indigo-900 py-16 w-full flex justify-center text-9xl">projects</h1>              
+              <div className={"bg-gradient-to-r from-indigo-900 w-full flex justify-center py-28"}>
                   <div className={"w-11/12 max-w-[2500px] grid grid-rows-3 gap-3.5"}>
                       <div className={"row-start-1"}>
-                          <div className="bg-base-100 w-full h-[27rem] rounded-3xl p-16 flex items-center">
+                          <div className="bg-base-100 w-full h-[27rem] rounded-3xl p-16 flex items-center transition-all duration-300 filter grayscale hover:grayscale-0">
                               <div className="avatar">
                                   <div className="w-72 rounded">
-                                      <img src="../img/rust.png"/>
+                                      <img className="rounded 5x1 border-double border-4 h-auto max-w-lg transition-all duration-300 rounded-lg cursor-pointer" src="https://www.springboard.com/blog/wp-content/uploads/2022/08/programming-skills.png" alt="website's under construction!"/>
+                                     
                                   </div>
                               </div>
 
@@ -26,9 +27,9 @@ export default function Projects(){
                                   </h1>
 
                                   <p class="text-2xl text-gray-200 py-8 ">the most vital element of an organization is recognizability. we are currently in development of a visually pleasing, informative website that caters to anyone who may want to know more about what we do.</p>
-
+                                 
                                   <div p-10>
-                                    {/* <button class="btn btn-active text-sky-100 bg-red-500 hover:bg-red-700">button to do cool</button> */}
+                                    <button class="btn btn-active text-sky-100 bg-red-500 hover:bg-red-700">button to do cool</button>
                                 </div>
                               </div>
 
@@ -36,10 +37,10 @@ export default function Projects(){
                       </div>
 
                       <div className={"row-start-2 py-4"}>
-                          <div className="bg-base-100 w-full h-[27rem] rounded-3xl p-16 flex items-center flex-row-reverse justify-between">
+                          <div className="bg-base-100 w-full h-[27rem] rounded-3xl p-16 flex items-center flex-row-reverse justify-between transition-all duration-300 filter grayscale hover:grayscale-0">
                               <div className="avatar">
                                   <div className="w-72 rounded">
-                                      <img src="" />
+                                  <img className="rounded 5x1 border-double border-4 h-auto max-w-lg" src="https://miro.medium.com/v2/resize:fit:709/0*Eqqrv9zVpH99X726.png" alt="website's under construction!"/>
                                   </div>
                               </div>
 
