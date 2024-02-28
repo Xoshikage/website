@@ -9,8 +9,8 @@ export default function Projects(){
 
           <div className="w-full"> 
               {/* <Hero className={"min-h-screen h-full"}></Hero> */}
-              <h1 className="bg-gradient-to-r from-indigo-900 py-16 w-full flex justify-center text-9xl">projects</h1>              
-              <div className={"bg-gradient-to-r from-indigo-900 w-full flex justify-center py-28"}>
+              <h1 className="bg-gradient-to-r from-indigo-950 py-16 w-full flex justify-center text-9xl">projects</h1>              
+              <div className={"bg-gradient-to-r from-indigo-950 w-full flex justify-center py-28"}>
                   <div className={"w-11/12 max-w-[2500px] grid grid-rows-3 gap-3.5"}>
                       <div className={"row-start-1"}>
                           <div className="bg-base-100 w-full h-[27rem] rounded-3xl p-16 flex items-center transition-all duration-300 filter grayscale hover:grayscale-0">
@@ -29,7 +29,7 @@ export default function Projects(){
                                   <p class="text-2xl text-gray-200 py-8 ">the most vital element of an organization is recognizability. we are currently in development of a visually pleasing, informative website that caters to anyone who may want to know more about what we do.</p>
                                  
                                   <div p-10>
-                                    <button class="btn btn-active text-sky-100 bg-red-500 hover:bg-red-700">button to do cool</button>
+                                    <button href="google.com" class="btn btn-active text-sky-100 bg-red-500 hover:bg-red-700">button to do cool</button>
                                 </div>
                               </div>
 
