@@ -1,5 +1,6 @@
 import Navbar from "@/components/navbar";
 import Hero from "@/components/hero";
+import TypeAnimation from 'react-type-animation';
 
 export default function Projects(){
     return(
@@ -7,11 +8,22 @@ export default function Projects(){
 
           <Navbar></Navbar>
 
-          <div className="w-full"> 
-              {/* <Hero className={"min-h-screen h-full"}></Hero> */}
-              <h1 className="bg-gradient-to-r from-indigo-950 py-16 w-full flex justify-center text-9xl">projects</h1>              
+          <div className="w-full">  
+                
+            {/* typewriter effect with text included */}
+              <div class="flex items-center justify-center bg-gradient-to-r from-indigo-950 py-16">
+                <div class="w-max">
+                    <h1
+                    class="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-9xl text-white">
+                    current projects
+                    </h1>
+                </div>
+               </div>
+
               <div className={"bg-gradient-to-r from-indigo-950 w-full flex justify-center py-28"}>
                   <div className={"w-11/12 max-w-[2500px] grid grid-rows-3 gap-3.5"}>
+
+                    {/* First box */}
                       <div className={"row-start-1"}>
                           <div className="bg-base-100 w-full h-[27rem] rounded-3xl p-16 flex items-center transition-all duration-300 filter grayscale hover:grayscale-0">
                               <div className="avatar">
@@ -36,6 +48,7 @@ export default function Projects(){
                           </div>
                       </div>
 
+                    {/* Second box */}            
                       <div className={"row-start-2 py-4"}>
                           <div className="bg-base-100 w-full h-[27rem] rounded-3xl p-16 flex items-center flex-row-reverse justify-between transition-all duration-300 filter grayscale hover:grayscale-0">
                               <div className="avatar">
@@ -53,7 +66,6 @@ export default function Projects(){
                                     Reticulum is designed to give communities and users a way of setting up peer-to-peer messaging networks that are secure, private, and extremely resilient. It runs over any kind of hardware --packet radio, LAN, wired connections, or even at the applications layer of TCP/IP
                                   </p>
 
-                                 
 
                                   <div p-10>
                                     
@@ -66,5 +78,5 @@ export default function Projects(){
             </div>
         </main>
         
-    )
+    )   
 }
