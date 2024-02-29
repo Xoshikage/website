@@ -73,6 +73,32 @@ export default function Projects(){
                               </div>
                           </div>
                       </div>
+
+                      {/* Third Box */}
+                      <div className={"row-start-3 py-4"}>
+                          <div className="bg-base-100 w-full h-[27rem] rounded-3xl p-16 flex items-center transition-all duration-300 filter grayscale hover:grayscale-0">
+                              <div className="avatar">
+                                  <div className="w-72 rounded">
+                                  <img className="rounded 5x1 h-auto max-w-lg duration-300 ease-in-out hover:scale-110" src="https://www.unite.ai/wp-content/uploads/2023/05/Featured-Blog-Image-Liquid-Neural-Networks-Definition-Applications-and-Challenges.jpg" alt="rusty crab"/>
+                                  </div>
+                              </div>
+
+                              <div className={"ml-8 h-full py-8 prose lg:prose-md"}>
+                                  <h1 class="text-5xl">
+                                    Third Project
+                                  </h1>
+
+                                  <p class="text-2xl py-8">
+                                    A software that accomplishes a given task quickly and efficiently. Don't ask.
+                                  </p>
+
+
+                                  <div p-10>
+                                    
+                                </div>
+                              </div>
+                          </div>
+                      </div>
                     </div>
                 </div>
             </div>
