@@ -1,4 +1,5 @@
 import Navbar from "@/components/navbar";
+import Footer from "@/components/footer";
 import Hero from "@/components/hero";
 import TypeAnimation from 'react-type-animation';
 
@@ -102,6 +103,8 @@ export default function Projects(){
                     </div>
                 </div>
             </div>
+
+            <Footer />
         </main>
         
     )   
