@@ -8,13 +8,11 @@ export default function Projects(){
 
           <Navbar></Navbar>
 
-          <div className="w-full">  
-                
-            {/* typewriter effect with text included */}
+          <div className="w-full">                      
               <div class="flex items-center justify-center bg-gradient-to-r from-indigo-950 py-16">
                 <div class="w-max">
                     <h1
-                    class="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-5 text-9xl text-white">
+                    class="animate-typing overflow-hidden whitespace-nowrap border-r-4 border-r-white pr-7 text-9xl text-white">
                     current projects
                     </h1>
                 </div>
@@ -35,10 +33,10 @@ export default function Projects(){
 
                               <div className={"ml-8 h-full py-12 prose lg:prose-md"}>
                                   <h1 class="text-5xl">
-                                    Club Website                            
+                                    Club Website                          
                                   </h1>
 
-                                  <p class="text-2xl text-gray-200 py-8">the most vital element of an organization is recognizability. we are currently in development of a visually pleasing, informative website that caters to anyone who may want to know more about what we do.</p>
+                                  <p class="text-2xl text-gray-200 py-8">The most vital element of an organization is recognizability. We are currently in development of a visually pleasing, informative website that caters to anyone who may want to know more about what we do.</p>
                                  
                                   <div p-10>
                                     <button href="google.com" class="btn btn-active text-sky-100 bg-red-500 hover:bg-red-700">button to do cool</button>
@@ -59,11 +57,11 @@ export default function Projects(){
 
                               <div className={"ml-8 h-full py-8 prose lg:prose-md"}>
                                   <h1 class="text-5xl">
-                                    Rust Reticulum
+                                    Rust Proof-of-Concept
                                   </h1>
 
                                   <p class="text-2xl py-8">
-                                    Reticulum is designed to give communities and users a way of setting up peer-to-peer messaging networks that are secure, private, and extremely resilient. It runs over any kind of hardware --packet radio, LAN, wired connections, or even at the applications layer of TCP/IP
+                                  Utilizing an impressive array of miscellaneous utility and recreational Rust scripts, perfect for mastering the practical applications of the language. 
                                   </p>
 
 
