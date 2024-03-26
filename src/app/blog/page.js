@@ -6,7 +6,6 @@ export default function Projects(){
     return(
         <main className="">
             <Navbar />
-
             <Footer />
 
         </main>
